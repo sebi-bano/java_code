@@ -1,0 +1,14 @@
+package Interface;
+
+public class Nnull {
+	public static void main(String[]args) {
+		String a=null;
+		int b=a.length();
+		
+		System.out.println(b);
+		
+		
+		
+	}
+
+}

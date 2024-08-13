@@ -1,0 +1,31 @@
+package Wrapperclass;
+
+public class Wrapper1 {
+	public static void main(String[]args) {
+	
+//	Byte a=2;
+//	Short s=10;
+//	Integer i=20;
+//	Long l= 100l;
+//	Float f=3.5f;
+//	Double d=90d;
+//	Boolean b=true;
+//	Character c='A';
+		
+		
+	
+	
+	
+	
+	System.out.println(a);
+	System.out.println(s);
+	System.out.println(i);
+	System.out.println(l);
+	System.out.println(f);
+	System.out.println(d);
+	System.out.println(b);
+	System.out.println(c);
+	}
+	
+
+}

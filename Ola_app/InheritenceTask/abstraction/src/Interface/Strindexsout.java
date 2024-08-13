@@ -1,0 +1,10 @@
+package Interface;
+
+public class Strindexsout {
+	public static void main(String[]args) {
+		String a="sebi";
+				
+				System.out.println(a.charAt(3));
+	}
+
+}

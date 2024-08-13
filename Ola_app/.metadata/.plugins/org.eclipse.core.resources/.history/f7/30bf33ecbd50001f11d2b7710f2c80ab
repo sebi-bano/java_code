@@ -1,0 +1,8 @@
+package inheritence;
+
+public class Customer {
+	int p=2000;
+	int t=20;
+	int r=30;
+
+}

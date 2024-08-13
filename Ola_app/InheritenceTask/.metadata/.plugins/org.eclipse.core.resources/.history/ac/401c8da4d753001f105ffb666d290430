@@ -1,0 +1,17 @@
+package Extensof;
+
+public class Instansof {
+
+}
+class child extends Instansof{
+	
+}
+
+class call{
+	public static void main(String[]args) {
+		Instansof a=new child();
+		if(a instanceof child) {
+			child c=(child) a;
+		}
+	}
+}

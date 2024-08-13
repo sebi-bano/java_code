@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+E:\java_qspider\sebi\part3\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3091492556.index
+4197342160.index

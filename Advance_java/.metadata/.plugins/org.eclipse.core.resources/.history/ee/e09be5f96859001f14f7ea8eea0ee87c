@@ -1,0 +1,33 @@
+package Com;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class StoreData {
+	public static void main(String[]args) {
+		// list database vendores
+		try {
+			//step 1 load the driver
+			//com.mysql://localost:5432/first";
+			Class.forName("org.postgresql.Driver");
+			//step 2 create connection
+			String url="jdbc:postgresql://localost:5432/first";
+			String user="postgres";
+			String password="root";
+			
+		
+			Connection connection= DriverManager.getConnection(url,user,password);
+			System.out.println(connection);
+		
+			
+		}
+		catch(ClassNotFoundException e) {
+			//todo auto generated catch book
+			e.printStackTrace();
+		}catch(SQLException e) {
+			e.printStackTrace();
+			
+		}
+	}
+
+}

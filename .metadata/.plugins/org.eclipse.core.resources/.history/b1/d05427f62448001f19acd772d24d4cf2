@@ -1,0 +1,31 @@
+
+package mycall;
+import additionProg.Addition;
+import divisionProg.Division;
+import subtractionProg.Subtraction;
+import multiProg.Product;
+
+
+public class cal {
+	public static void main(String[]args) {
+		
+		Addition.addi(3,5);
+		Addition a=new Addition();
+		a.add(5, 8, 9);
+		
+		Division.divi(7, 8);
+		Division b=new Division();
+		b.div(6,9,8);
+		
+		Subtraction.subt(8,9);
+		Subtraction c=new Subtraction();
+		c.sub(3, 4, 7);
+		
+		Product.multi(8,9);
+		Product d=new Product();
+		d.mult(3, 4, 7);
+		
+		
+	}
+
+}

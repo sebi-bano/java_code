@@ -1,0 +1,25 @@
+package Upcasting;
+
+public class Upcasting {
+	void Cast() {
+		System.out.println("up casting")
+	}
+	
+	
+
+}
+
+class Pencile extends Books{
+	void Color() {
+		System.out.println("red");
+	}
+}
+
+public class Call {
+    public static void main(String[] args) {
+        
+    		Pencile p = new Pencile();
+            Books b = pencile;
+            Books.Cast();
+    }
+}

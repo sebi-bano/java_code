@@ -1,0 +1,21 @@
+package Interface;
+
+public class Arth {
+	public static void main(String[]args) {
+		
+		try {
+	
+		System.out.println(8/0);
+		}
+		
+		catch(ArthmeticException e)
+		{
+//			System.out.println("can't divide");
+			System.out.println(e.getMessage());
+		}
+			System.out.println("hello");
+		
+	}
+	
+
+}

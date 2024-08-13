@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+E:\java_qspider\Ola_app\.metadata\.plugins\org.eclipse.jdt.core
+3673852965.index
+3104744232.index
+4123334033.index
+1865797976.index

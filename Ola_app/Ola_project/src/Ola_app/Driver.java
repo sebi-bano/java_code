@@ -1,0 +1,17 @@
+package Ola_app;
+
+public class Driver {
+	private String drivername;
+	private int id;
+	private long phoneno;
+	
+	
+	public void driverdetails() {
+		System.out.println(drivername);
+		System.out.println(id);
+		System.out.println(phoneno);
+		
+	}
+	
+
+}

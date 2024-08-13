@@ -1,0 +1,9 @@
+package inheritence;
+
+public class SiCustomer extends Customer {
+	public void SI(){
+		System.out.println(((p* t)*r)/100);
+		}
+	
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+E:\java_qspider\Devcalculator\.metadata\.plugins\org.eclipse.jdt.core
+3091492556.index
+4199692511.index
+1865797976.index
